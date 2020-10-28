@@ -97,6 +97,18 @@ kbd {
   .keys{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap:1px;
+    grid-column-gap:100px;
+    margin-left:100px;
+  }
+
+
+  main{
+    min-height: 100vh;
+    margin-top: 200px;
+  }
+
+  .circle{
+    margin:0 auto;
+    margin-bottom: 100px;
   }
 }
