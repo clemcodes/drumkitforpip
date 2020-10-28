@@ -134,8 +134,12 @@ kbd {
   p{
     text-align: center;
     margin:0;
+    font-size: 1.8rem;
   }
   .circle {
     margin-bottom:50px;
+  }
+  .title {
+    padding-top: 53px
   }
 }
