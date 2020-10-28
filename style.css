@@ -27,7 +27,7 @@ main{
   font-family: 'Amatic SC', cursive;
   width: 200px;
   height: 200px; 
-  background-color: #000;
+  background-color: rgba(0,0,0,0.8);
   text-align: center;
   margin-bottom: 100px;
   margin-left: 10px;
@@ -122,14 +122,20 @@ kbd {
 @media screen and (max-width:574px){
   main{
     min-height: 100vh;
-    margin-top: 120px;
+    margin-top: 80px;
   }
   .keys{
-    margin:0 100px;
-    grid-column-gap:5px;
+    margin-right: 25px;
+    grid-column-gap:1px;
+  }
+  .key {
+    width: 8rem;
   }
   p{
     text-align: center;
     margin:0;
+  }
+  .circle {
+    margin-bottom:50px;
   }
 }
