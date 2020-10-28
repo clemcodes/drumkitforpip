@@ -51,10 +51,12 @@ main{
    
   
 p{
-  text-align: right;
+  text-align: center;
   color:#fff;
   font-size: 1.5rem;
-  margin-right: 50px;
+  /* margin-right: 50px; */
+  background-color: rgba(0,0,0,0.9);
+  
 
 }
 
@@ -132,8 +134,6 @@ kbd {
     width: 8rem;
   }
   p{
-    text-align: center;
-    margin:0;
     font-size: 1.8rem;
   }
   .circle {
